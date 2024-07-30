@@ -1,4 +1,4 @@
-const cacheName = "cardooo-PIXEL HEROS-1.0.15";
+const cacheName = "bigmilkcoke-magictowermaster-1.0.15";
 const contentToCache = [
     "Build/Web.loader.js",
     "Build/Web.framework.js.unityweb",
