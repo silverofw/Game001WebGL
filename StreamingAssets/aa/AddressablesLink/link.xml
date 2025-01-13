@@ -31,6 +31,13 @@
     <type fullname="UnityEngine.Localization.Tables.TableReference" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Localization.Metadata.FallbackLocale" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="Unity.RenderPipelines.Universal.2D.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.PixelPerfectCamera" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.RenderPipelines.Universal.Runtime, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Rendering.Universal.UniversalAdditionalCameraData" preserve="all" />
+    <type fullname="UnityEngine.Rendering.Universal.TemporalAA/Settings" preserve="nothing" serialized="true" />
+  </assembly>
   <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
     <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
@@ -66,14 +73,20 @@
   </assembly>
   <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioListener" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Camera" preserve="all" />
     <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.LightmapSettings" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
     <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.RenderSettings" preserve="all" />
     <type fullname="UnityEngine.Shader" preserve="all" />
     <type fullname="UnityEngine.Sprite" preserve="all" />
     <type fullname="UnityEngine.SpriteRenderer" preserve="all" />
@@ -85,6 +98,9 @@
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
   </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.MeshCollider" preserve="all" />
+  </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
   </assembly>
@@ -92,7 +108,9 @@
     <type fullname="UnityEngine.Tilemaps.Tile" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.EventSystems.EventSystem" preserve="all" />
     <type fullname="UnityEngine.EventSystems.EventTrigger" preserve="all" />
+    <type fullname="UnityEngine.EventSystems.StandaloneInputModule" preserve="all" />
     <type fullname="UnityEngine.UI.Button" preserve="all" />
     <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
     <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
@@ -154,7 +172,10 @@
     <type fullname="ControlPointer" preserve="all" />
     <type fullname="CostBlock" preserve="all" />
     <type fullname="CreateRolePanel" preserve="all" />
+    <type fullname="CreateRoleScene" preserve="all" />
     <type fullname="CutPanel" preserve="all" />
+    <type fullname="CutScene" preserve="all" />
+    <type fullname="CutView" preserve="all" />
     <type fullname="DamageText" preserve="all" />
     <type fullname="DebugPanel" preserve="all" />
     <type fullname="DG.Tweening.DOTweenAnimation" preserve="all" />
@@ -164,6 +185,7 @@
     <type fullname="EffectSpritePlayer" preserve="all" />
     <type fullname="EmojiPanel" preserve="all" />
     <type fullname="EquipPanel" preserve="all" />
+    <type fullname="GameScene" preserve="all" />
     <type fullname="GateMenuPanel" preserve="all" />
     <type fullname="GodAtomPanel" preserve="all" />
     <type fullname="GodBagPanel" preserve="all" />
@@ -209,6 +231,7 @@
     <type fullname="view.BuildingSpritePlayer" preserve="all" />
     <type fullname="view.CardBlock" preserve="all" />
     <type fullname="view.CardSelectPanel" preserve="all" />
+    <type fullname="view.CreateRoleView" preserve="all" />
     <type fullname="view.EquipBlock" preserve="all" />
     <type fullname="view.EquipCell" preserve="all" />
     <type fullname="view.FieldSelectAtomPanel" preserve="all" />
@@ -216,7 +239,9 @@
     <type fullname="view.GachaResultPanel" preserve="all" />
     <type fullname="view.GachaSelectPanel" preserve="all" />
     <type fullname="view.GamePanel" preserve="all" />
+    <type fullname="view.GameView" preserve="all" />
     <type fullname="view.GatePanel" preserve="all" />
+    <type fullname="view.GateView" preserve="all" />
     <type fullname="view.MapTileInfoPanel" preserve="all" />
     <type fullname="view.MedalBlock" preserve="all" />
     <type fullname="view.MenuPanel" preserve="all" />
@@ -231,6 +256,9 @@
   </assembly>
   <assembly fullname="core">
     <type fullname="core.Vec2" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="logic">
+    <type fullname="logic.GameBuilder" preserve="nothing" serialized="true" />
   </assembly>
   <assembly fullname="Unity.Localization.Samples.PersistentVariables">
     <type fullname=".ItemGender" preserve="nothing" serialized="true" />
