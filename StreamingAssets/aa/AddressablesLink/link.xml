@@ -81,7 +81,6 @@
     <type fullname="UnityEngine.GameObject" preserve="all" />
     <type fullname="UnityEngine.LightmapSettings" preserve="all" />
     <type fullname="UnityEngine.Material" preserve="all" />
-    <type fullname="UnityEngine.MeshFilter" preserve="all" />
     <type fullname="UnityEngine.MeshRenderer" preserve="all" />
     <type fullname="UnityEngine.MonoBehaviour" preserve="all" />
     <type fullname="UnityEngine.Object" preserve="all" />
@@ -97,9 +96,6 @@
     <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
     <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
-  </assembly>
-  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
-    <type fullname="UnityEngine.MeshCollider" preserve="all" />
   </assembly>
   <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
     <type fullname="UnityEngine.Font" preserve="all" />
@@ -166,7 +162,6 @@
     <type fullname="BulletPlayer" preserve="all" />
     <type fullname="ChatItem" preserve="all" />
     <type fullname="ChatPanel" preserve="all" />
-    <type fullname="ChessPanel" preserve="all" />
     <type fullname="Collect" preserve="all" />
     <type fullname="ControlPanel" preserve="all" />
     <type fullname="ControlPointer" preserve="all" />
@@ -222,6 +217,7 @@
     <type fullname="TileView" preserve="all" />
     <type fullname="TipPanel" preserve="all" />
     <type fullname="TopPanel" preserve="all" />
+    <type fullname="TouchPanel" preserve="all" />
     <type fullname="view.AtomBoardBlock" preserve="all" />
     <type fullname="view.AtomInfoPanel" preserve="all" />
     <type fullname="view.AtomPanel" preserve="all" />
@@ -242,6 +238,7 @@
     <type fullname="view.GameView" preserve="all" />
     <type fullname="view.GatePanel" preserve="all" />
     <type fullname="view.GateView" preserve="all" />
+    <type fullname="view.MapAtomInfoItem" preserve="all" />
     <type fullname="view.MapTileInfoPanel" preserve="all" />
     <type fullname="view.MedalBlock" preserve="all" />
     <type fullname="view.MenuPanel" preserve="all" />
