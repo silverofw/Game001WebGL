@@ -228,6 +228,7 @@
     <type fullname="view.CardBlock" preserve="all" />
     <type fullname="view.CardSelectPanel" preserve="all" />
     <type fullname="view.CreateRoleView" preserve="all" />
+    <type fullname="view.DefendPanel" preserve="all" />
     <type fullname="view.EquipBlock" preserve="all" />
     <type fullname="view.EquipCell" preserve="all" />
     <type fullname="view.FieldSelectAtomPanel" preserve="all" />
