@@ -178,9 +178,7 @@
     <type fullname="DialogPanel" preserve="all" />
     <type fullname="DoAnimaTool" preserve="all" />
     <type fullname="EffectSpritePlayer" preserve="all" />
-    <type fullname="EmojiPanel" preserve="all" />
     <type fullname="EquipPanel" preserve="all" />
-    <type fullname="GameScene" preserve="all" />
     <type fullname="GateMenuPanel" preserve="all" />
     <type fullname="GodAtomPanel" preserve="all" />
     <type fullname="GodBagPanel" preserve="all" />
@@ -190,7 +188,6 @@
     <type fullname="ItemPanel" preserve="all" />
     <type fullname="KeyboardDetector" preserve="all" />
     <type fullname="LoadPanel" preserve="all" />
-    <type fullname="MapTipBox" preserve="all" />
     <type fullname="MessagePanel" preserve="all" />
     <type fullname="MultiListView" preserve="all" />
     <type fullname="OrderItem" preserve="all" />
@@ -217,7 +214,6 @@
     <type fullname="TileView" preserve="all" />
     <type fullname="TipPanel" preserve="all" />
     <type fullname="TopPanel" preserve="all" />
-    <type fullname="TouchPanel" preserve="all" />
     <type fullname="view.AtomBoardBlock" preserve="all" />
     <type fullname="view.AtomInfoPanel" preserve="all" />
     <type fullname="view.AtomPanel" preserve="all" />
@@ -229,6 +225,7 @@
     <type fullname="view.CardSelectPanel" preserve="all" />
     <type fullname="view.CreateRoleView" preserve="all" />
     <type fullname="view.DefendPanel" preserve="all" />
+    <type fullname="view.EmojiPanel" preserve="all" />
     <type fullname="view.EquipBlock" preserve="all" />
     <type fullname="view.EquipCell" preserve="all" />
     <type fullname="view.FieldSelectAtomPanel" preserve="all" />
@@ -236,11 +233,13 @@
     <type fullname="view.GachaResultPanel" preserve="all" />
     <type fullname="view.GachaSelectPanel" preserve="all" />
     <type fullname="view.GamePanel" preserve="all" />
+    <type fullname="view.GameScene" preserve="all" />
     <type fullname="view.GameView" preserve="all" />
     <type fullname="view.GatePanel" preserve="all" />
     <type fullname="view.GateView" preserve="all" />
     <type fullname="view.MapAtomInfoItem" preserve="all" />
     <type fullname="view.MapTileInfoPanel" preserve="all" />
+    <type fullname="view.MapTipBox" preserve="all" />
     <type fullname="view.MedalBlock" preserve="all" />
     <type fullname="view.MenuPanel" preserve="all" />
     <type fullname="view.RogueCardBlock" preserve="all" />
@@ -249,6 +248,7 @@
     <type fullname="view.TeachSkillPanel" preserve="all" />
     <type fullname="view.TeamItem" preserve="all" />
     <type fullname="view.TeamPanel" preserve="all" />
+    <type fullname="view.TouchPanel" preserve="all" />
     <type fullname="WebYTPanel" preserve="all" />
     <type fullname="view.ActionChip" preserve="nothing" serialized="true" />
   </assembly>
